@@ -26,6 +26,6 @@ function save() {
 function clearCount() {
     count = 0
     countEl.textContent = count
-    countScript.textContent = "Previous count:"
+    countScript.textContent = "Previous count: "
     console.clear()
 }

@@ -8,14 +8,18 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <h1 id="title">Welcome to my simple counter app!</h1>
-    <p id="count-el">0</p>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button>
-    <button id="reduce-btn" onclick="reduce()">REDUCE</button>
-    <button id="reset-btn" onclick="reset()">RESET</button>
-    <button id="save-btn" onclick="save()">SAVE</button>
-    <button id="clear-btn" onclick="clearCount()">CLEAR</button>
-    <p id="count-script">Previous count: </p>
-    <script src="./js/script.js"></script>
+    <div class="app-container">
+        <h1 id="title">Welcome to my simple counter app!</h1>
+        <p id="count-el">0</p>
+        <div id="btn-container">
+            <button id="increment-btn" onclick="increment()">INCREMENT</button>
+            <button id="reduce-btn" onclick="reduce()">REDUCE</button>
+            <button id="reset-btn" onclick="reset()">RESET</button>
+            <button id="save-btn" onclick="save()">SAVE</button>
+            <button id="clear-btn" onclick="clearCount()">CLEAR</button>
+        </div>
+        <p id="count-script">Previous count: </p>
+        <script src="./js/script.js"></script>
+    </div>
 </body>
 </html>

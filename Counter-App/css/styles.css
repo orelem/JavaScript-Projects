@@ -1,5 +1,88 @@
+/* This is to have more control over sizing properties */
 * {
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
+    /* Above for viewing boxes */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    max-width: 600px;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: rgba(2, 2, 42, 0.941);
+}
+
+.app-container {
+    max-width: 100%;
+    background-color: #d3d3d3;
+    border: 2px solid #808080;
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    border-bottom: 2px solid #808080;
+}
+
+#count-el {
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+#btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 8px;
+    padding: 4px;
+    border-radius: 10%;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
+
+button:hover {
+    opacity: 50%;
+    padding: 8px;
+    margin: 4px;
+}
+
+button#increment-btn {
+    background-color: green;
+}
+
+button#reduce-btn {
+    background-color: red;
+}
+
+button#reset-btn {
+    background-color: rgb(131, 5, 131);
+}
+
+button#save-btn {
+    background-color: blue;
+}
+
+button#clear-btn {
+    background-color: gray;
+}
+
+#count-script {
+    margin-top: 10px;
+    padding: 16px;
+    font-weight: bold;
+    border-top: 2px solid #808080;
 }
